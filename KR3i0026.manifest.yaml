@@ -1,0 +1,88 @@
+canonical_identifier: bkk:krp/KR3i0026/v1
+canonical_location: https://kanripo.org/bkk/KR3i0026/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 北山酒經
+  date: '2015-08-24 23:18:05.696785'
+  source:
+    repository: kanripo
+    path: KR3i0026
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3i0026_000.yaml, hash: 'sha256:3a381ac407c1c146f2c4b6e7d782423926724dee77aa65a5602e5f3876bb1159'}
+  - {seq: 1, filename: KR3i0026_001.yaml, hash: 'sha256:a4fbddb8ca6c990bc322230add1dd5f11639da80cdb2e9370a04f4d8610c02cc'}
+  - {seq: 2, filename: KR3i0026_002.yaml, hash: 'sha256:c43500e22e8e85fd7634888fcd0cdeac84f739f06436fc90e4b9788ed8bd168b'}
+  - {seq: 3, filename: KR3i0026_003.yaml, hash: 'sha256:925472a3974fbd5a77deb15cef5fb116a61b346a766699648a772bf98362f5f9'}
+  - {seq: 4, filename: KR3i0026_004.yaml, hash: 'sha256:49ea1f0d69b6e60efd2f1d8af1408079d3f3cab2c5dcbd638c619218970a22db'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3i0026_000.markers.yaml, hash: 'sha256:92d57643749e96e2c3b06209f26721d602971a7bf83d76512fce35efac61c891'}
+  - {seq: 1, role: markers, filename: assets/KR3i0026_001.markers.yaml, hash: 'sha256:4c234e5c8387d1d38cf8c118af2c23d4f8b5a1a9c242d20a7f45fe8518ff3b95'}
+  - {seq: 2, role: markers, filename: assets/KR3i0026_002.markers.yaml, hash: 'sha256:fa025680dc42bc2c48a20863498759c10de52add86167f8b5be7bf7c071a0c6f'}
+  - {seq: 3, role: markers, filename: assets/KR3i0026_003.markers.yaml, hash: 'sha256:af48a5c6a23cef584538fcb37905af99a442a20bea9c3fc1bd49d2b2f4ecd046'}
+  - {seq: 4, role: markers, filename: assets/KR3i0026_004.markers.yaml, hash: 'sha256:74adcc266cd79dc662d0574e32f95e0ad258b210d8650c04a155d606c53360d3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3i0026_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 308
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3i0026_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 1848
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3i0026_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 3084
+  label: 卷中
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3i0026_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 6709
+  label: 卷下
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3i0026_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 301
+  label: 題北山酒經後
+  type: section
+  level: 1
+hash: sha256:141243bb2b52af0f5972a8d0400928156c47b24b070025c394ded8993b49f5fe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
